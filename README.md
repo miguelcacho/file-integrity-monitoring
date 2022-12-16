@@ -15,3 +15,4 @@ Instructions:
 3. When users type ‘A’, a separate folder containing baseline hashes will be created in the local host’s system based on specified path.
 4. On the other hand, when ‘B’ is chosen and the system DOES NOT DETECT any changes, the application will be triggered to start then continuously loop in a specified folder. There will be no alert message on display.
 5. Otherwise, if a CHANGE HAS BEEN DETECTED, the application will send out an alert to the user. Alert message varies depending on what the trigger was: a new file has been created, a file has been deleted, or a file has been edited/modified.
+6. The alert will continuously appear on the screen until an action to mitigate the change has been undertaken.
